@@ -38,7 +38,7 @@ namespace PatikaOdev1
             {
                 if((sayi==m) ||(sayi%m==0))
                     Console.WriteLine(sayi);
-            }*/
+            }
             //Ödev1 3.Soru
             
             Console.WriteLine("Pozitif bir sayı giriniz: ");
@@ -55,7 +55,23 @@ namespace PatikaOdev1
             foreach (var word in words)
             {
                 Console.WriteLine(word);
+            }*/
+            //Ödev1 4.Soru
+
+            Console.WriteLine("Lütfen bir cümle yazınız: ");
+            string cumle = Console.ReadLine();
+            int kelimeSayi = cumle.Split(" ").Length;
+            string[] kelimler =cumle.Split(' ');
+            Console.WriteLine("Kelime Sayısı: "+kelimeSayi);
+            int harfSayisi=0;
+            foreach (var kelime in kelimler)
+            {
+                
+                harfSayisi+=kelime.Length;
             }
+            Console.WriteLine("Harf Sayısı: "+harfSayisi);
+            
+            
             
             
             
