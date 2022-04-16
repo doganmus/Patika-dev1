@@ -7,7 +7,7 @@ namespace PatikaOdev1
         static void Main(string[] args)
         {
             //Ödev1 1.Soru
-            /*Console.Write("Pozitif bir sayı giriniz: ");
+            Console.Write("Pozitif bir sayı giriniz: ");
             int n = int.Parse(Console.ReadLine());
             int[] diziSayi = new int[n];
             for (int i = 0 ; i < n; i++)
@@ -55,7 +55,7 @@ namespace PatikaOdev1
             foreach (var word in words)
             {
                 Console.WriteLine(word);
-            }*/
+            }
             //Ödev1 4.Soru
 
             Console.WriteLine("Lütfen bir cümle yazınız: ");
