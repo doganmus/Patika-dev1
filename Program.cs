@@ -9,17 +9,20 @@ namespace PatikaOdev1
             //Ödev1 1.Soru
             Console.Write("Pozitif bir sayı giriniz: ");
             int n = int.Parse(Console.ReadLine());
-            
-            int[] ciftSayi = new int[n];
+            int[] diziSayi = new int[n];
             for (int i = 0 ; i < n; i++)
             {
                Console.Write("Pozitif sayı adedince sayı girişi yapınız: ");
-               int nSayi= int.Parse(Console.ReadLine());
-               if (nSayi%2==0)
-                Console.WriteLine(nSayi);
-               
+               diziSayi[i]= int.Parse(Console.ReadLine());
             }
 
+            for (int i = 0; i < n; i++)
+            {
+              if(diziSayi[i]%2==0)
+               {  
+                  Console.WriteLine("Girilen çift sayı:" +diziSayi[i]);
+               }
+            }
             //Ödev1 2.Soru
             
             
