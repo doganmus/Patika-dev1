@@ -22,7 +22,7 @@ namespace PatikaOdev1
                {  
                   Console.WriteLine("Girilen çift sayı:" +diziSayi[i]);
                }
-            }*/
+            }
             //Ödev1 2.Soru
             Console.WriteLine("Pozitif iki sayı giriniz :");
             int n=int.Parse(Console.ReadLine()); 
@@ -38,7 +38,25 @@ namespace PatikaOdev1
             {
                 if((sayi==m) ||(sayi%m==0))
                     Console.WriteLine(sayi);
+            }*/
+            //Ödev1 3.Soru
+            
+            Console.WriteLine("Pozitif bir sayı giriniz: ");
+            int n = int.Parse(Console.ReadLine());
+            string[] words = new string[n];
+            Console.WriteLine(n+" adet kelime giriniz: ");
+            for (int i = 0; i < n; i++)
+            {
+              words[i] = Console.ReadLine();  
             }
+
+            Console.WriteLine("*********************");
+            Array.Reverse(words);
+            foreach (var word in words)
+            {
+                Console.WriteLine(word);
+            }
+            
             
             
             
